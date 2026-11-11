@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aatsanjam Kaur - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="nav-container">
+
+            <div class="brand">
+                <h1>Aatsanjam Kaur</h1>
+                
+            </div>
+
+            <nav class="navigation">
+                <a href="#projects" class="nav-link">Projects</a>
+
+                <button class="nav-about" data-open-modal>
+                    About Me
+                </button>
+            </nav>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/aatsanjamkaurrrr/" >
+                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://discord.com/channels/@me" >
+                    <i class="fa-brands fa-github"></i>      
+                      </a>
+
+                    
+
+                    <a href="https://www.linkedin.com/in/aatsanjam-kaur-527745384?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                         <i class="fa-brands fa-linkedin"></i>
+                    </a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main class="hero">
+
+        <div class="hero-content">
+
+            
+
+            <h2>
+                Hey, I'm
+                <span class="pink-underline">Aatsanjam Kaur</span>,
+                a second-year B.Tech CSE student with a love for
+                building things and exploring new ideas.
+            </h2>
+
+            <p class="hero-description">
+                As much as I enjoy learning new things, I find just
+                as much joy in breaking them down into simpler pieces
+                and helping others understand what once felt complicated.
+            </p>
+
+            <blockquote>
+                "Here's to hopefully creating things and a life
+                that make a difference along the way."
+            </blockquote>
+
+            <div class="hero-actions">
+
+                <button class="primary-button" data-open-modal>
+                    more about me <span>→</span>
+                </button>
+
+                <div class="connect-links">
+                    <span>CONNECT:</span>
+
+                    <a href="https://www.instagram.com/aatsanjamkaurrrr/" >
+                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://discord.com/channels/@me" >
+                    <i class="fa-brands fa-github"></i>      
+                      </a>
+
+                    
+
+                    <a href="https://www.linkedin.com/in/aatsanjam-kaur-527745384?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                         <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+
+        <div class="projects-container">
+
+            <div class="section-header">
+
+                <div>
+                    <div class="section-label">02 </div>
+
+                    <h2>Projects</h2>
+
+                    
+                </div>
+
+                <!-- FILTER BUTTONS -->
+                <div class="filters">
+
+                    <button class="filter-button active" data-filter="all">
+                        All Works
+                    </button>
+
+                    <button class="filter-button" data-filter="graphics">
+                        HTML
+                    </button>
+
+                    <button class="filter-button" data-filter="systems">
+                        CSS
+                    </button>
+
+                    <button class="filter-button" data-filter="algorithms">
+                        JavaScript
+                    </button>
+
+                    <button class="filter-button" data-filter="backend">
+                        Backend
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT GRID -->
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card" data-category="graphics">
+
+                    <div class="project-info">
+
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+
+                        <div class="project-category">
+                           
+                        </div>
+
+                        <h3>Atmos</h3>
+
+                        <p>
+                            A real-time weather application that transforms live meteorological data into an intuitive visual experience, featuring location-based forecasts, dynamic weather conditions, and a clean responsive interface.
+                        </p>
+
+                    </div>
+
+                    <div class="project-bottom">
+
+                        <div class="tech-stack">
+                            
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/aatsanjam-kaur/weather">Code ↗</a>
+                            <a href="https://aatsanjam-kaur.github.io/weather/">Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project-card" data-category="systems">
+
+                    <div class="project-info">
+
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+
+                        <div class="project-category">
+                            
+                        </div>
+
+                        <h3>Carbon emissions calculator</h3>
+
+                        <p>
+                            An interactive carbon footprint calculator that helps users measure their estimated environmental impact through everyday activities and understand how their lifestyle choices contribute to CO₂ emissions.
+                        </p>
+
+                    </div>
+
+                    <div class="project-bottom">
+
+                        <div class="tech-stack">
+                            
+                            
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/aatsanjam-kaur/carbon-emissions">Code ↗</a>
+                            <a href="https://aatsanjam-kaur.github.io/carbon-emissions/">Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+                <article class="project-card" data-category="algorithms">
+
+                    <div class="project-info">
+
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-status">Completed</span>
+                        </div>
+
+                        <div class="project-category">
+                            
+                        </div>
+
+                        <h3>PixelSketch</h3>
+
+                        <p>
+                            A browser-based drawing application inspired by the classic Etch-a-Sketch toy, allowing users to create digital artwork through an interactive grid-based interface. Built to explore DOM manipulation and event handling.
+                        </p>
+
+                    </div>
+
+                    <div class="project-bottom">
+
+                        <div class="tech-stack">
+                            
+                            
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/aatsanjam-kaur/etch-a-sketch">Code ↗</a>
+                            <a href="https://aatsanjam-kaur.github.io/etch-a-sketch/">Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT ME MODAL -->
+    <div class="modal-overlay" id="aboutModal" aria-hidden="true">
+
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+
+            <div class="modal-header">
+
+                <div>
+                    <div class="section-label">01  DOSSIER</div>
+                    <h2 id="modalTitle">More About Me</h2>
+                </div>
+
+                <button class="close-button" id="closeModal" aria-label="Close modal">
+                    <i data-lucide="x"></i>
+                </button>
+
+            </div>
+
+
+            <div class="modal-description">
+
+                
+
+                <p>
+                    Currently navigating my second year in Computer
+                    Science & Engineering (B.Tech) and finding my purpose in life.
+                </p>
+
+            </div>
+
+
+            <!-- DETAILS -->
+            <div class="details-grid">
+
+                <div class="detail-box">
+                    <h3>CURRENT FOCUS</h3>
+                    <p>
+                        Data Structures and Algorithms, full stack development.
+                        
+                    </p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>EDUCATION</h3>
+                    <p>
+                        B.Tech Computer Science
+                        <span>(Year 2)</span>
+                    </p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Gyaan ki baate </h3>
+                    <p class="italic-text">
+                        "The only way to deal with an unfree world is to become so absolutely free that our very existence is an act of rebellion."
+                    </p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Other interests? </h3>
+                    <p class="muted">
+                        Teaching,Outdoor sports & recreational activities.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- MODAL SOCIAL LINKS -->
+            <div class="modal-footer">
+
+                <h3>CHANNELS</h3>
+
+                <div class="social-links">
+
+                   <a href="https://www.instagram.com/aatsanjamkaurrrr/" >
+                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://discord.com/channels/@me" >
+                    <i class="fa-brands fa-github"></i>      
+                      </a>
+
+                    
+
+                    <a href="https://www.linkedin.com/in/aatsanjam-kaur-527745384?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                         <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
